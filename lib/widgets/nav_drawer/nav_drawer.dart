@@ -33,6 +33,13 @@ class NavDrawer extends StatelessWidget {
               Navigator.pushNamed(context, Routes.notes);
             },
           ),
+          ListTile(
+            leading: Icon(Icons.verified_user),
+            title: Text('Máscaras & Validações'),
+            onTap: () {
+              Navigator.pushNamed(context, Routes.mascara_validacao);
+            },
+          ),
         ],
       ),
     );
